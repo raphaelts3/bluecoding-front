@@ -76,7 +76,8 @@ export default {
   },
   methods: {
     search () {
-      this.$router.replace(`/?query=${this.query}`)
+      this.$router.push(`/?query=${this.query}`)
+      this.$router.go()
     }
   }
 }
