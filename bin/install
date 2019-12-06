@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+sudo docker-compose exec blue_vue npm install
